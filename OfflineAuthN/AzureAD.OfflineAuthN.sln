@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{409FBCDD-A7E3-4835-B0B4-48F172123BB1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FB7C85E2-FAA5-4380-9EB1-9B76D06A5C4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureAD.OfflineAuthN.Web", "src\AzureAD.OfflineAuthN.Web\AzureAD.OfflineAuthN.Web.csproj", "{1585EA16-96E7-4714-A470-72C43CFBABCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureAD.OfflineAuthN.Api", "src\AzureAD.OfflineAuthN.Api\AzureAD.OfflineAuthN.Api.csproj", "{F63BCEB9-1683-450E-B3BA-EC41A79BAA22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1585EA16-96E7-4714-A470-72C43CFBABCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1585EA16-96E7-4714-A470-72C43CFBABCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1585EA16-96E7-4714-A470-72C43CFBABCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1585EA16-96E7-4714-A470-72C43CFBABCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F63BCEB9-1683-450E-B3BA-EC41A79BAA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63BCEB9-1683-450E-B3BA-EC41A79BAA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63BCEB9-1683-450E-B3BA-EC41A79BAA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63BCEB9-1683-450E-B3BA-EC41A79BAA22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1585EA16-96E7-4714-A470-72C43CFBABCC} = {FB7C85E2-FAA5-4380-9EB1-9B76D06A5C4C}
+		{F63BCEB9-1683-450E-B3BA-EC41A79BAA22} = {FB7C85E2-FAA5-4380-9EB1-9B76D06A5C4C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E46D5DD-CA42-4A6F-962A-71A4D6EE1FE8}
+	EndGlobalSection
+EndGlobal
